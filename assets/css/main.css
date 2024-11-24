@@ -3499,6 +3499,7 @@ body.index #main {
 
 #overide-center {
   text-align: center !important;
+  white-space: pre-line !important;
 }
 
 .yelp-review {
