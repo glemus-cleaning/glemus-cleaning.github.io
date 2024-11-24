@@ -3491,9 +3491,7 @@ body.index #main {
   text-align: center !important;
 }
 
-.yelp-review-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.yelp-review {
+  justify-self: center;
   margin-bottom: 2em;
 }
