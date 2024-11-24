@@ -3461,3 +3461,32 @@ body.index #main {
   outline: none !important; /* Removes dotted or any outline */
   border: none !important; /* Removes border if it's styled */
 }
+
+.border-top-bot {
+  border-top: solid 1px rgba(26, 26, 26, 0.1);
+  border-bottom: solid 1px rgba(26, 26, 26, 0.1);
+  padding-top: 4em;
+  margin-bottom: 2em;
+}
+
+.map-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 25%; /* 16:9 Aspect Ratio */
+  height: 100px;
+  overflow: hidden;
+  margin-bottom: 2em;
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+#overide-center {
+  text-align: center !important;
+}
