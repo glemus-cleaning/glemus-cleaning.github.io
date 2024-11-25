@@ -2476,6 +2476,10 @@ button.small,
   text-decoration: none;
 }
 
+#header nav ul li.specialSubmenu > a {
+  text-decoration: none;
+}
+
 #header nav ul li.submenu > a:before {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
