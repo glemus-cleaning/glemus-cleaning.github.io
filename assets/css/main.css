@@ -3506,6 +3506,11 @@ body.index #main {
   white-space: pre-line !important;
 }
 
+#overide-left-align {
+  text-align: left !important;
+  white-space: pre-line !important;
+}
+
 .yelp-review {
   justify-self: center;
   margin-bottom: 2em;
