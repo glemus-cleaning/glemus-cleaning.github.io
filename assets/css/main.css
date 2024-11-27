@@ -3533,3 +3533,77 @@ body.index #main {
   color: gold;
   position: relative !important;
 }
+
+.loadingPage {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden; /* Prevent bubbles from appearing outside the viewport */
+  position: relative;
+}
+
+.bubble {
+  width: 20px;
+  height: 20px;
+  background-color: rgba(173, 216, 230, 0.8);
+  border-radius: 50%;
+  position: absolute;
+  animation: rise 3s infinite ease-in-out; /* Reduced duration for faster movement */
+  left: calc(10% + 80% * var(--random-x)); /* Randomized horizontal position */
+  bottom: calc(-10% - 20% * var(--random-y)); /* Randomized vertical start */
+}
+
+.bubble:nth-child(2) {
+  animation-delay: 1s;
+  width: 30px;
+  height: 30px;
+}
+
+.bubble:nth-child(3) {
+  animation-delay: 2s;
+  width: 40px;
+  height: 40px;
+}
+
+@keyframes rise {
+  0% {
+    bottom: 0;
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    bottom: 100%; /* Move bubbles out of the viewport */
+    opacity: 0;
+    transform: scale(1.5);
+  }
+}
+
+.loader {
+  border: 10px solid #f3f3f3;
+  border-top: 10px solid lightblue;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.logoLoading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
