@@ -3621,3 +3621,76 @@ body.index #main {
   justify-content: left;
   align-items: center;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 60px 0;
+  background-color: #fff;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+table th {
+  background-color: #25a5cb;
+  color: rgb(255, 255, 255);
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #dafffe;
+}
+
+.unit-header {
+  background-color: #929292;
+  color: white;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* Responsive Styling */
+@media (max-width: 600px) {
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block; /* Make table elements block */
+  }
+
+  table th {
+    display: none; /* Hide headers */
+  }
+
+  table td {
+    position: relative;
+    padding-left: 50%; /* Space for the label */
+  }
+
+  table td::before {
+    content: attr(data-label); /* Add labels */
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-weight: bold;
+    color: #25a5cb;
+    white-space: nowrap;
+  }
+
+  .unit-header {
+    background-color: #25a5cb;
+    color: white;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+  }
+}
