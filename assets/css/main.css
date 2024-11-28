@@ -3607,3 +3607,17 @@ body.index #main {
   justify-content: center;
   align-items: center;
 }
+
+#standard-icon {
+  opacity: 0.6;
+  height: 36px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+#flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
