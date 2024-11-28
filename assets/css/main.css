@@ -3501,6 +3501,10 @@ body.index #main {
   border: 0;
 }
 
+.coverage-map {
+  height: 600px;
+}
+
 #overide-center {
   text-align: center !important;
   white-space: pre-line !important;
