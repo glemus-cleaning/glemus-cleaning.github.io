@@ -2525,7 +2525,7 @@ button.small,
   animation: none;
   background: transparent;
   box-shadow: none;
-  color: #fff;
+  color: #000000;
   padding: 2em 2.5em;
   position: absolute;
 }
@@ -2660,7 +2660,7 @@ button.small,
   -webkit-animation-fill-mode: forwards;
   -ms-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0);
   color: #000000;
   display: inline-block;
   opacity: 0;
@@ -3702,4 +3702,8 @@ table tr:hover {
 
 .mb-50 {
   margin-bottom: 50px;
+}
+
+#main-logo {
+  height: 36px;
 }
