@@ -1,5 +1,5 @@
 @import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:300,400,900");
 
 /*
 	Twenty by HTML5 UP
@@ -194,7 +194,7 @@ input,
 select,
 textarea {
   color: #282828; /* Text color main */
-  font-family: "Lato", sans-serif;
+  font-family: "Merriweather", sans-serif;
   font-size: 15pt;
   font-weight: 300;
   letter-spacing: 0.025em;
@@ -2250,7 +2250,7 @@ button,
   color: inherit;
   cursor: pointer;
   display: inline-block;
-  font-size: 0.8em;
+  font-size: 0.9em;
   font-weight: 900;
   letter-spacing: 2px;
   min-width: 18em;
@@ -2412,7 +2412,7 @@ button.small,
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
   color: inherit;
   cursor: default;
-  font-size: 0.8em;
+  font-size: 0.9em;
   left: 0;
   padding: 1em 1.5em;
   position: fixed;
@@ -2467,7 +2467,7 @@ button.small,
 #header nav ul li input[type="reset"],
 #header nav ul li button,
 #header nav ul li .button {
-  font-size: 1em;
+  font-size: 1.1em;
   min-width: 0;
   width: auto;
 }
@@ -2555,7 +2555,7 @@ button.small,
 }
 
 .dropotron.level-0 {
-  font-size: 0.7em;
+  font-size: 0.9em;
   font-weight: 400;
   margin-top: 1.5em;
 }
@@ -2758,7 +2758,7 @@ body.index #main {
 
 #footer {
   background: #e8eef4;
-  color: #7c8081;
+  color: #484848;
   padding: 5em 5em 10em 5em;
   text-align: center;
 }
