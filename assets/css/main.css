@@ -2745,7 +2745,7 @@ body.index #main {
   background-position: top left, top right, top left, bottom center;
   background-repeat: no-repeat, no-repeat, repeat, no-repeat;
   background-size: 25em, 25em, auto, cover;
-  color: #fff;
+  color: #202020;
   padding: 5em;
   text-align: center;
 }
