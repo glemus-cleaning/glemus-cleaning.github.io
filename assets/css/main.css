@@ -3707,3 +3707,7 @@ table tr:hover {
 #main-logo {
   height: 36px;
 }
+
+#big-number {
+  font-size: 60px;
+}
