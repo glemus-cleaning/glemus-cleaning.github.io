@@ -3638,11 +3638,16 @@ table th,
 table td {
   border: 1px solid #ddd;
   padding: 12px;
-  text-align: left;
+  text-align: center;
 }
 
 table th {
   background-color: #25a5cb;
+  color: rgb(255, 255, 255);
+}
+
+#left-th {
+  background-color: #8a2000;
   color: rgb(255, 255, 255);
 }
 
@@ -3661,45 +3666,6 @@ table tr:hover {
   text-align: left;
 }
 
-/* Responsive Styling */
-@media (max-width: 600px) {
-  table,
-  thead,
-  tbody,
-  th,
-  td,
-  tr {
-    display: block; /* Make table elements block */
-  }
-
-  table th {
-    display: none; /* Hide headers */
-  }
-
-  table td {
-    position: relative;
-    padding-left: 50%; /* Space for the label */
-  }
-
-  table td::before {
-    content: attr(data-label); /* Add labels */
-    position: absolute;
-    left: 10px;
-    top: 10px;
-    font-weight: bold;
-    color: #25a5cb;
-    white-space: nowrap;
-  }
-
-  .unit-header {
-    background-color: #25a5cb;
-    color: white;
-    font-weight: bold;
-    display: block;
-    padding: 10px;
-  }
-}
-
 .mb-50 {
   margin-bottom: 50px;
 }
@@ -3708,6 +3674,15 @@ table tr:hover {
   height: 36px;
 }
 
+#medium-number {
+  font-size: 30px;
+}
+
 #big-number {
   font-size: 60px;
+}
+
+#reduce-margin {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
