@@ -2639,7 +2639,7 @@ button.small,
 
 #banner {
   background-attachment: scroll, scroll, scroll, fixed;
-  background-color: #645862;
+  background-color: #586064;
   background-image: url("images/light-bl.svg"), url("images/light-br.svg"),
     url("images/overlay.png"), url("../../images/gelmu-clean.jpg");
   background-position: bottom left, bottom right, top left, top center;
@@ -3144,6 +3144,7 @@ body.index #main {
   #navButton .toggle:before {
     color: #fff;
     content: "\f0c9";
+    background-color: #8a2000;
     font-size: 1em;
     height: 40px;
     left: 10px;
