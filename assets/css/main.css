@@ -3686,3 +3686,20 @@ table tr:hover {
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
+
+#no-list-formatting {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.prominent-policies {
+  font-size: 1.1em;
+  line-height: 1.6;
+  border: 2px solid #444;
+  padding: 2em;
+  margin: 20px 0;
+  background-color: #f9f9f9;
+  color: #333;
+  margin-bottom: 70px;
+}
