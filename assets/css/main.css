@@ -3642,8 +3642,8 @@ table td {
 }
 
 table th {
-  background-color: #25a5cb;
-  color: rgb(255, 255, 255);
+  background-color: #c8c8c8;
+  color: rgb(29, 29, 29);
 }
 
 #left-th {
@@ -3676,6 +3676,14 @@ table tr:hover {
 
 #medium-number {
   font-size: 30px;
+}
+
+@media screen and (max-width: 736px) {
+  #medium-number {
+    font-size: 24px;
+    display: block;
+    padding-bottom: 10px;
+  }
 }
 
 #big-number {
