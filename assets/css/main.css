@@ -1,6 +1,7 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300,400,900");
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,900");
+@import url("https://fonts.googleapis.com/css?family=Tangerine:300,400,900");
 
 /*
 	Twenty by HTML5 UP
@@ -3710,8 +3711,37 @@ table tr:hover {
   margin-bottom: 70px;
 }
 
-#main-logo-image {
-  height: 140px;
+#main-title {
+  font-family: "Tangerine", cursive;
+  font-size: 120px;
+  text-transform: capitalize;
+  margin-bottom: 0;
+  color: #8a2000;
+}
+
+#banner #main-banner #main-banner-text p {
+  font-family: "Tangerine", cursive;
+  line-height: 1.2em;
+  font-size: 65px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+#main-banner-button {
+  font-family: "Tangerine", cursive;
+  line-height: 1em;
+  font-size: 70px;
+  text-decoration: none;
+  border-bottom-style: none;
+  padding: 0.1em 0.4em;
+  color: #8a2000;
+  border: #8a2000 solid 2px;
+  margin-top: 1em;
+}
+
+#main-banner-button:hover {
+  background: rgba(212, 212, 212, 0.75);
+  border-color: inherit;
 }
 
 @media screen and (max-width: 736px) {
@@ -3721,7 +3751,16 @@ table tr:hover {
     padding-bottom: 10px;
   }
 
-  #main-logo-image {
-    height: 100px;
+  #banner #main-banner #main-banner-text p {
+    line-height: 1em;
+    font-size: 55px;
+  }
+
+  #main-title {
+    font-size: 75px;
+  }
+
+  #main-banner-button {
+    font-size: 55px;
   }
 }
