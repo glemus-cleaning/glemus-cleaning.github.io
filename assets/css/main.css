@@ -3727,12 +3727,14 @@ table tr:hover {
   letter-spacing: 0;
   text-transform: none;
   padding-bottom: 20px;
+  color: #fff;
+  font-style: italic;
 }
 
 #main-banner-button {
   font-family: "Montserrat", sans-serif;
   line-height: 1em;
-  font-size: 50px;
+  font-size: 40px;
   text-decoration: none;
   border-bottom-style: none;
   font-weight: 400;
@@ -3782,6 +3784,6 @@ table tr:hover {
   }
 
   #main-banner-button {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
