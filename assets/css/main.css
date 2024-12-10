@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300,400,900");
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,900");
 @import url("https://fonts.googleapis.com/css?family=Tangerine:300,400,900");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,900");
 
 /*
 	Twenty by HTML5 UP
@@ -3713,18 +3714,19 @@ table tr:hover {
 
 #main-title {
   font-family: "Tangerine", cursive;
-  font-size: 120px;
+  font-size: 140px;
   text-transform: capitalize;
   margin-bottom: 0;
   color: #8a2000;
 }
 
 #banner #main-banner #main-banner-text p {
-  font-family: "Tangerine", cursive;
+  font-family: "Montserrat", sans-serif;
   line-height: 1.2em;
-  font-size: 65px;
+  font-size: 50px;
   letter-spacing: 0;
   text-transform: none;
+  padding-bottom: 20px;
 }
 
 #main-banner-button {
@@ -3735,13 +3737,18 @@ table tr:hover {
   border-bottom-style: none;
   padding: 0.1em 0.4em;
   color: #8a2000;
+  background: rgba(237, 237, 237, 0.75);
   border: #8a2000 solid 2px;
   margin-top: 1em;
 }
 
 #main-banner-button:hover {
-  background: rgba(212, 212, 212, 0.75);
+  background: rgba(208, 208, 208, 0.75);
   border-color: inherit;
+}
+
+#yelp-listing-button {
+  background: rgba(237, 237, 237, 0.75);
 }
 
 @media screen and (max-width: 736px) {
@@ -3753,11 +3760,11 @@ table tr:hover {
 
   #banner #main-banner #main-banner-text p {
     line-height: 1em;
-    font-size: 55px;
+    font-size: 26px;
   }
 
   #main-title {
-    font-size: 75px;
+    font-size: 85px;
   }
 
   #main-banner-button {
