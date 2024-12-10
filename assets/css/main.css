@@ -3758,6 +3758,11 @@ table tr:hover {
     padding-bottom: 10px;
   }
 
+  #banner #main-banner {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
   #banner #main-banner #main-banner-text p {
     line-height: 1em;
     font-size: 26px;
@@ -3765,9 +3770,11 @@ table tr:hover {
 
   #main-title {
     font-size: 85px;
+    line-height: 1.1em;
+    padding-bottom: 0.2em;
   }
 
   #main-banner-button {
-    font-size: 55px;
+    font-size: 50px;
   }
 }
