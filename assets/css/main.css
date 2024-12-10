@@ -3730,11 +3730,12 @@ table tr:hover {
 }
 
 #main-banner-button {
-  font-family: "Tangerine", cursive;
+  font-family: "Montserrat", sans-serif;
   line-height: 1em;
-  font-size: 70px;
+  font-size: 50px;
   text-decoration: none;
   border-bottom-style: none;
+  font-weight: 400;
   padding: 0.1em 0.4em;
   color: #8a2000;
   background: rgba(237, 237, 237, 0.75);
@@ -3761,20 +3762,26 @@ table tr:hover {
   #banner #main-banner {
     padding-left: 0.5em;
     padding-right: 0.5em;
+    margin-top: 0;
+    padding-top: 0;
   }
 
   #banner #main-banner #main-banner-text p {
-    line-height: 1em;
+    line-height: 1.2em;
     font-size: 26px;
+    padding-top: 3em;
+    padding-bottom: 3em;
   }
 
   #main-title {
     font-size: 85px;
     line-height: 1.1em;
     padding-bottom: 0.2em;
+    margin-top: 0;
+    padding-top: 0;
   }
 
   #main-banner-button {
-    font-size: 50px;
+    font-size: 30px;
   }
 }
