@@ -3750,6 +3750,25 @@ table tr:hover {
   border-color: inherit;
 }
 
+#review-title {
+  font-family: "Tangerine", cursive;
+  font-size: 80px;
+  text-transform: capitalize;
+  margin-bottom: 0;
+  color: #8a2000;
+}
+
+#review-paragraph {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.2em;
+  font-size: 35px;
+  letter-spacing: 0;
+  text-transform: none;
+  padding-bottom: 20px;
+  color: #fff;
+  font-style: italic;
+}
+
 #yelp-listing-button {
   background: rgba(237, 237, 237, 0.75);
 }
@@ -3768,13 +3787,6 @@ table tr:hover {
     padding-top: 0;
   }
 
-  #banner #main-banner #main-banner-text p {
-    line-height: 1.2em;
-    font-size: 26px;
-    padding-top: 3em;
-    padding-bottom: 3em;
-  }
-
   #main-title {
     font-size: 85px;
     line-height: 1.1em;
@@ -3783,7 +3795,27 @@ table tr:hover {
     padding-top: 0;
   }
 
+  #banner #main-banner #main-banner-text p {
+    line-height: 1.2em;
+    font-size: 26px;
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+
   #main-banner-button {
     font-size: 25px;
+  }
+
+  #review-title {
+    font-size: 50px;
+    line-height: 1.1em;
+    padding-bottom: 0.5em;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  #review-paragraph {
+    line-height: 1.2em;
+    font-size: 24px;
   }
 }
