@@ -2531,7 +2531,7 @@ button.small,
   color: #000000;
   font-family: "Raleway", sans-serif;
   font-weight: 500;
-  background-color: #fff;
+  background-color: #f0f0f0;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
   padding: 1.5em 2.5em;
   position: absolute;
@@ -3149,7 +3149,7 @@ body.index #main {
   }
 
   #navButton .toggle:before {
-    color: #fff;
+    color: #eeeeee;
     content: "\f0c9";
     background-color: #8a2000;
     font-size: 1em;
@@ -3195,7 +3195,7 @@ body.index #main {
     top: 0;
     width: 275px;
     z-index: 10002;
-    background: #fff;
+    background: #eeeeee;
     color: #2a2a2a;
     font-size: 0.9em;
     letter-spacing: 0.075em;
@@ -3738,7 +3738,7 @@ table tr:hover {
   text-decoration: none;
   border-bottom-style: none;
   font-weight: 400;
-  padding: 0.1em 0.4em;
+  padding: 0.2em 0.5em;
   color: #8a2000;
   background: rgba(237, 237, 237, 0.75);
   border: #8a2000 solid 2px;
